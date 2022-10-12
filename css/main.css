@@ -25,12 +25,6 @@ section:nth-of-type(odd){
     width: auto;
 }
 
-
-#portfolio img{
-    width: 100%;
-    border-radius: .9375rem;
-}
-
 .ms-btn{
     border: none;
     font-size: .875rem;
