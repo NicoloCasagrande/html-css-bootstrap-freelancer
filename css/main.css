@@ -1,0 +1,59 @@
+/*-----------------------
+         MAIN
+------------------------*/
+
+section:nth-of-type(2n){
+    background-color: white;
+    color: black;
+}
+
+section:nth-of-type(odd){
+    background-color: var(--ms-primary-color);
+    color: white;
+}
+
+#hero{
+    padding-bottom: 2.5rem;
+}
+
+#hero img{
+    width: 12.5rem;
+    height: auto;
+}
+
+.star-icon{
+    width: auto;
+}
+
+
+#portfolio img{
+    width: 100%;
+    border-radius: .9375rem;
+}
+
+.ms-btn{
+    border: none;
+    font-size: .875rem;
+    border-radius: 1.25rem;
+    padding: .375rem .75rem;
+    color: inherit;
+}
+
+.ms-btn-transparent{
+    background-color: transparent;
+    border: .0625rem solid white;
+}
+
+.line{
+    width: 3.75rem;
+    height: .125rem;
+    border-radius: 1.25rem;
+}
+
+.white{
+    background-color: white;
+}
+
+.black{
+    background-color: black;
+}

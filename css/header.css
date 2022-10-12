@@ -1,0 +1,28 @@
+/*-----------------
+     HEADER 
+-----------------*/
+
+header{
+    color: white;
+}
+
+.ms-main-nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.ms-main-nav li{
+    padding: 0 0.5rem;
+}
+
+.ms-main-nav li a:not(last-child){
+    text-decoration: none;
+    color: inherit;
+}
+
+header span{
+    font-size: 1.5625rem;
+}
