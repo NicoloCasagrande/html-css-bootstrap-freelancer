@@ -5,4 +5,12 @@
 @import url('main.css');
 @import url('footer.css');
 
+.navbar-nav{
+    margin-left: auto;
+}
+
+.sm-navbar-dark{
+    background-color: #2c3e50;
+}
+
 
