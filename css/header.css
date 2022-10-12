@@ -10,9 +10,7 @@ header{
     min-width: 9.6875rem;
 }
 
-
-
-.sm-navbar-dark a:not(last-child){
+.sm-navbar-dark a{
     color: inherit;
 }
 
@@ -20,5 +18,10 @@ header span{
     font-size: 1.5625rem;
     font-weight: bold;
     color: white;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 1.375rem;
 }
 
