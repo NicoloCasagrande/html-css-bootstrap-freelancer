@@ -2,6 +2,10 @@
          MAIN
 ------------------------*/
 
+main{
+    min-width: 9.6875rem;
+}
+
 section:nth-of-type(2n){
     background-color: white;
     color: black;
@@ -17,7 +21,9 @@ section:nth-of-type(odd){
 }
 
 #hero img{
-    width: 12.5rem;
+    min-width: 6.25rem;
+    max-width: 12.5rem;
+    width: 30vw;
     height: auto;
 }
 
@@ -45,6 +51,12 @@ section:nth-of-type(odd){
     background-color: currentColor;
 }
 
+@media screen and (max-width: 9.6875rem){
+    .line{
+        width: 1.875rem;
+    }
+}
+
 .msg-height{
     min-height: 11.875rem;
 }
@@ -59,4 +71,8 @@ section:nth-of-type(odd){
     color: white;
     border-radius: .1875rem;
     padding: .1875rem .375rem;
+}
+
+.star-line{
+    flex-wrap: nowrap;
 }
