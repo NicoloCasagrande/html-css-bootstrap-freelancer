@@ -42,12 +42,21 @@ section:nth-of-type(odd){
     width: 3.125rem;
     height: .125rem;
     border-radius: 1.25rem;
+    background-color: currentColor;
 }
 
-.white{
-    background-color: white;
+.msg-height{
+    min-height: 11.875rem;
 }
 
-.black{
-    background-color: black;
+#contact-form form{
+    text-align: left;
+}
+
+.btn-contact{
+    border: none;
+    background-color: var(--ms-primary-color);
+    color: white;
+    border-radius: .1875rem;
+    padding: .1875rem .375rem;
 }
