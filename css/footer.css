@@ -32,3 +32,7 @@ footer h3{
 .copyright i{
     font-size: .625rem;
 }
+
+footer .social-div:first-of-type{
+    margin-left: -0.1875rem;
+}
