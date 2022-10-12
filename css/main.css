@@ -45,7 +45,7 @@ section:nth-of-type(odd){
 }
 
 .line{
-    width: 3.75rem;
+    width: 3.125rem;
     height: .125rem;
     border-radius: 1.25rem;
 }
