@@ -1,0 +1,22 @@
+
+
+.star-line{
+    flex-wrap: nowrap;
+}
+
+.star-icon{
+    width: auto;
+}
+
+.line{
+    width: 3.125rem;
+    height: .125rem;
+    border-radius: 1.25rem;
+    background-color: currentColor;
+}
+
+@media screen and (max-width: 9.6875rem){
+    .line{
+        width: 1.875rem;
+    }
+}

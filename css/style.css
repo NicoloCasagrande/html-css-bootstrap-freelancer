@@ -1,16 +1,11 @@
 @import url('variables.css');
 @import url('utilities.css');
 @import url('../components/portfolio.css');
+@import url('../components/separator.css');
 @import url('header.css');
 @import url('main.css');
 @import url('footer.css');
 
-.navbar-nav{
-    margin-left: auto;
-}
 
-.sm-navbar-dark{
-    background-color: #2c3e50;
-}
 
 

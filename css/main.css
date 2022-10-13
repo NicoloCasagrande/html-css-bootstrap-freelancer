@@ -27,10 +27,6 @@ section:nth-of-type(odd){
     height: auto;
 }
 
-.star-icon{
-    width: auto;
-}
-
 .ms-btn{
     border: none;
     font-size: .875rem;
@@ -42,19 +38,6 @@ section:nth-of-type(odd){
 .ms-btn-transparent{
     background-color: transparent;
     border: .0625rem solid white;
-}
-
-.line{
-    width: 3.125rem;
-    height: .125rem;
-    border-radius: 1.25rem;
-    background-color: currentColor;
-}
-
-@media screen and (max-width: 9.6875rem){
-    .line{
-        width: 1.875rem;
-    }
 }
 
 .msg-height{
@@ -73,6 +56,3 @@ section:nth-of-type(odd){
     padding: .1875rem .375rem;
 }
 
-.star-line{
-    flex-wrap: nowrap;
-}
